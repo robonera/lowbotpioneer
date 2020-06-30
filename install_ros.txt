@@ -1,0 +1,35 @@
+###
+#  Preparation of ROS environement :
+###
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+source /opt/ros/noetic/setup.bash 
+catkin_init_workspace
+cd ~/catkin_ws
+catkin build
+source ~/catkin_ws/devel/setup.bash
+
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+
+### 
+# Manual build of intel realsense (no .deb package aviable for 20.04)
+###
+
+mkdir ~/install
+cd ~/install
+git clone https://github.com/IntelRealSense/librealsense.git
+
+cd librealsense
+mkdir build
+cd build
+cmake ../ -DFORCE_RSUSB_BACKEND=true -DBUILD_PYTHON_BINDINGS=true -DCMAKE_BUILD_TYPE=release -DBUILD_EXAMPLES=true -DBUILD_GRAPHICAL_EXAMPLES=true
+
+###
+#  Build of rosuser catkin ( Pioneer and realsense packages ) 
+###
+cd ~/catkin_ws/src
+git clone https://github.com/IntelRealSense/realsense-ros.git 
+git clone https://github.com/amineHorseman/pioneer_bringup.git
+
+
+

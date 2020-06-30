@@ -11,5 +11,13 @@ sudo apt update
 sudo apt install vim htop screen terminator tree git
 
 sudo apt install ros-noetic-desktop 
+sudo apt install  ros-noetic-hokuyo3d synaptic 
+sudo apt install libaria-dev libaria-demo libaria-dev-doc 
+sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev 
+
+sudo apt install python3-catkin-tools python3-osrf-pycommon
+
+sudo apt install build-essential clang-format clang-10 
+sudo apt upgrade
 
 
