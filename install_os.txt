@@ -17,7 +17,11 @@ sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev lib
 
 sudo apt install python3-catkin-tools python3-osrf-pycommon
 
-sudo apt install build-essential clang-format clang-10 
+sudo apt install build-essential clang-format clang-10  cmake-curses-gui libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev mlocate autotools-dev
+ ros-noetic-joy-teleop jstest-gtk ros-noetic-openslam-gmapping ros-noetic-openni2-camera ros-noetic-apriltag libapriltag-dev   ros-noetic-libg2o ros-noetic-perception ros-noetic-slam-toolbox-msgs ros-noetic-slam-karto ros-noetic-urg-node ros-noetic-urg-stamped ros-noetic-urdf-geometry-parser ros-noetic-urdf ros-noetic-urdfdom-py
+
 sudo apt upgrade
+
+
 
 
