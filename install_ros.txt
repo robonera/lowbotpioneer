@@ -30,6 +30,6 @@ cmake ../ -DFORCE_RSUSB_BACKEND=true -DBUILD_PYTHON_BINDINGS=true -DCMAKE_BUILD_
 cd ~/catkin_ws/src
 git clone https://github.com/IntelRealSense/realsense-ros.git 
 git clone https://github.com/amineHorseman/pioneer_bringup.git
-
-
+git clone https://github.com/amor-ros-pkg/rosaria.git
+git clone https://github.com/ros-drivers/urg_node
 
