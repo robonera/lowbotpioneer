@@ -32,4 +32,7 @@ git clone https://github.com/IntelRealSense/realsense-ros.git
 git clone https://github.com/amineHorseman/pioneer_bringup.git
 git clone https://github.com/amor-ros-pkg/rosaria.git
 git clone https://github.com/ros-drivers/urg_node
+git clone https://github.com/ros-drivers/joystick_drivers
+git clone https://github.com/osrf/async_web_server_cpp
+git clone https://github.com/RobotWebTools/web_video_server
 
